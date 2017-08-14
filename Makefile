@@ -12,7 +12,7 @@ libkarenlocalizer_FILES = $(wildcard *.m)
 
 include $(THEOS_MAKE_PATH)/library.mk
 
-install-to-theos:: all
+setup:: all
 	@cp -v .theos/$(THEOS_OBJ_DIR_NAME)/libkarenlocalizer.dylib $(THEOS)/lib/
 	@mkdir -pv $(THEOS)/include/KarenLocalizer/
 	@cp -v *.h $(THEOS)/include/KarenLocalizer/

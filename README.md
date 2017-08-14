@@ -4,13 +4,13 @@ KarenLocalizer is a library that allows developers to add localization support t
 
 KarenLocalizer is BSD-licensed. See `LICENSE` for more information.
 
-### KarenLocalizer setup and usage (assuming you already have [Theos](https://github.com/theos/theos))
+### KarenLocalizer setup and usage (assuming you already have the latest version of [Theos](https://github.com/theos/theos))
 
-1. `git clone https://github.com/angelXwind/KarenLocalizer.git`
-
-1. `cd KarenLocalizer/`
-
-1. `make install-to-theos`
+```
+git clone https://github.com/angelXwind/KarenLocalizer.git
+cd KarenLocalizer/
+make setup
+```
 
 1. In your project's `Makefile`, add `karenlocalizer` to your `TweakName_LIBRARIES` variable.
 
