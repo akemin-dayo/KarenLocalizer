@@ -14,5 +14,5 @@ include $(THEOS_MAKE_PATH)/library.mk
 
 setup:: all
 	@cp -v .theos/$(THEOS_OBJ_DIR_NAME)/libkarenlocalizer.dylib $(THEOS)/lib/
-	@mkdir -pv $(THEOS)/include/KarenLocalizer/
+	@mkdir -p $(THEOS)/include/KarenLocalizer/
 	@cp -v *.h $(THEOS)/include/KarenLocalizer/
