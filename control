@@ -1,11 +1,11 @@
 Package: net.angelxwind.karenlocalizer
 Name: KarenLocalizer
 Depends: 
-Version: 1.0.4
+Version: 1.0.5
 Architecture: iphoneos-arm
 Description: A development library that allows developers to add localization support to their tweaks.
-Homepage: https://cydia.angelxwind.net/
-Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.karenlocalizer
-Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
-Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Homepage: https://cydia.akemi.ai/
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.karenlocalizer
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Author: Karen/あけみ <karen@akemi.ai>
 Section: Development
